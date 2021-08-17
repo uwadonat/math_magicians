@@ -1,7 +1,7 @@
 # Math Magicians
 This repository contains code for an simple calculator web app.
 
-![Screenshot](https://github.com/uwadonat/math-magicians/blob/feature-component/images/Screenshot.jpg)
+![Screenshot](https://github.com/uwadonat/math_magicians/blob/feature-components/images/Screenshoot.jpg)
 
 Additional description of the project and its features.
 

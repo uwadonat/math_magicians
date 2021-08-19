@@ -5,6 +5,10 @@ This repository contains code for an simple calculator web app.
 
 Additional description of the project and its features.
 
+## 🔴  Live Demo
+
+[Math-magicians live](https://clever-bardeen-8227f2.netlify.app)
+
 ## Built With
 
 - HTML

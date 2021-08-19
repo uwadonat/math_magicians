@@ -7,7 +7,7 @@ Additional description of the project and its features.
 
 ## 🔴  Live Demo
 
-[Math-magicians live](https://pensive-euler-38aebe.netlify.app)
+[Math-magicians live](https://clever-bardeen-8227f2.netlify.app)
 
 ## Built With
 

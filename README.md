@@ -5,6 +5,10 @@ This repository contains code for an simple calculator web app.
 
 Additional description of the project and its features.
 
+## 🔴  Live Demo
+
+[Math-magicians live](https://pensive-euler-38aebe.netlify.app)
+
 ## Built With
 
 - HTML

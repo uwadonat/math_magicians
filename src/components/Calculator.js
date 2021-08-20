@@ -6,7 +6,13 @@ function Calculator() {
   const [calcObject, setCalcObject] = useState({});
 
   function handleClick(e) {
-    setCalcObject({ ...calcObject, ...calculate(calcObject, e.target.textContent) });
+    e.preventDefault();
+    try {
+      setCalcObject({ ...calcObject, ...calculate(calcObject, e.target.textContent) });
+    } catch (error) {
+      return calcObject;
+    }
+    return 0;
   }
 
   const { next, total } = calcObject;

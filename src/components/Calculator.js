@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
 function Calculator() {
   const [calcObject, setCalcObject] = useState({});
-
 
   function handleClick(e) {
     setCalcObject({ ...calcObject, ...calculate(calcObject, e.target.textContent) });

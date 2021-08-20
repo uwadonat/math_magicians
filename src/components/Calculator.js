@@ -2,7 +2,23 @@ import React from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
+function Calculator() {
+  const [calcObject, setCalcObject] = useState({});
+}
+
+function handleClick(e) {
+  setCalcObject({...calcObject, ...calculate(calcObject, e.target.textContent)});
+}
+
+const { next, total } = calcObject;
+
+const buttonNames =[
+  'AC', '+/-', '%', '÷', '7', '8', '9', 'x',
+  '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '=',
+];
+
+const btnClass = (i)
+ Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};

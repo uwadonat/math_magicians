@@ -40,7 +40,7 @@ it will open `http://localhost:3000/` in your default browser.
 
 ## Authors
 
-👤 **Hubert MUGABO**
+👤 **Donat Uwamahoro**
 
 - Github: [Donat Uwamahoro](https://github.com/uwadonat)
 - Linkedin: [Donat Uwamahoro](https://www.linkedin.com/in/uwadonat)

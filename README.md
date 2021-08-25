@@ -1,13 +1,14 @@
 # Math Magicians
 This repository contains code for an simple calculator web app.
 
-![Screenshot](https://github.com/uwadonat/math_magicians/blob/feature-components/images/Screenshoot.jpg)
+![Screenshot](https://github.com/uwadonat/math_magicians/blob/full-website/images/Screenshoot.jpg)
 
 Additional description of the project and its features.
 
 ## 🔴  Live Demo
 
-[Math-magicians live](https://laughing-dijkstra-6f3c80.netlify.app)
+[Math-magicians live](https://condescending-galileo-ae7c3d.netlify.app)
+
 
 ## Built With
 
@@ -40,7 +41,9 @@ it will open `http://localhost:3000/` in your default browser.
 
 ## Authors
 
-👤 **Donat Uwamahoro**
+
+👤 **Donat UWAMAHORO**
+=======
 
 - Github: [Donat Uwamahoro](https://github.com/uwadonat)
 - Linkedin: [Donat Uwamahoro](https://www.linkedin.com/in/uwadonat)

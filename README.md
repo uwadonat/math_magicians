@@ -9,6 +9,7 @@ Additional description of the project and its features.
 
 [Math-magicians live](https://condescending-galileo-ae7c3d.netlify.app)
 
+
 ## Built With
 
 - HTML
@@ -40,7 +41,9 @@ it will open `http://localhost:3000/` in your default browser.
 
 ## Authors
 
+
 👤 **Donat UWAMAHORO**
+=======
 
 - Github: [Donat Uwamahoro](https://github.com/uwadonat)
 - Linkedin: [Donat Uwamahoro](https://www.linkedin.com/in/uwadonat)

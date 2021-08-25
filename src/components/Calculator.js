@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-    this.handleClick = this.handleClick.bind(this);
-  }
+function Calculator() {
+  const [calcObject, setCalcObject] = useState({});
 
-  handleClick(e) {
-    this.setState((state) => calculate(state, e.target.textContent));
+  function handleClick(e) {
+    e.preventDefault();
+    try {
+      setCalcObject({ ...calcObject, ...calculate(calcObject, e.target.textContent) });
+    } catch (error) {
+      return calcObject;
+    }
+    return 0;
   }
 
   render() {

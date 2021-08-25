@@ -7,7 +7,7 @@ Additional description of the project and its features.
 
 ## 🔴  Live Demo
 
-[Math-magicians live](https://clever-bardeen-8227f2.netlify.app)
+[Math-magicians live](https://laughing-dijkstra-6f3c80.netlify.app)
 
 ## Built With
 
@@ -40,7 +40,7 @@ it will open `http://localhost:3000/` in your default browser.
 
 ## Authors
 
-👤 **Hubert MUGABO**
+👤 **Donat Uwamahoro**
 
 - Github: [Donat Uwamahoro](https://github.com/uwadonat)
 - Linkedin: [Donat Uwamahoro](https://www.linkedin.com/in/uwadonat)

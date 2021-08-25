@@ -7,7 +7,7 @@ Additional description of the project and its features.
 
 ## 🔴  Live Demo
 
-[Math-magicians live](https://clever-bardeen-8227f2.netlify.app)
+[Math-magicians live](https://condescending-galileo-ae7c3d.netlify.app)
 
 ## Built With
 

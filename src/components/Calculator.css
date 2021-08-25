@@ -31,4 +31,5 @@ button[class^='orange'] {
 
 .calculate-page {
   display: flex;
+  margin-left: 1rem;
 }

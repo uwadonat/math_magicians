@@ -7,4 +7,3 @@ test('it should render correctly', () => {
   const tree = renderer.create(<Calculator />).toJSON();
   expect(tree).toMatchSnapshot();
 });
-

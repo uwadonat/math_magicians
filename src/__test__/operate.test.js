@@ -1,31 +1,33 @@
 import operate from '../logic/operate';
 
-describe('operate', () => {
-  test('6 + 3 should return 9', () => {
-    expect(operate(6, 3, '+')).toBe('9');
+describe('Known operations to pass the tests', () => {
+  test('operate(2,3,+) should return "5" as string', () => {
+    expect(operate(2, 3, '+')).toBe('5');
   });
 
-  test('6 + 3 should return 9', () => {
-    expect(operate(6, 3, '+')).toBe('9');
+  test('operate(2,3,-) should return "-1" as string', () => {
+    expect(operate(2, 3, '-')).toBe('-1');
   });
 
-  test('6 - 3 should return 3', () => {
-    expect(operate(6, 3, '-')).toBe('3');
+  test('operate(2,3,x) should return "6" as string', () => {
+    expect(operate(2, 3, 'x')).toBe('6');
   });
 
-  test('6 x 3 should return 18', () => {
-    expect(operate(6, 3, 'x')).toBe('18');
-  });
-
-  test('6 ÷ 3 should return 2', () => {
+  test('operate(6,3,÷) should return "2" as string', () => {
     expect(operate(6, 3, '÷')).toBe('2');
   });
 
-  test('6 % 4 should return 2', () => {
-    expect(operate(6, 4, '%')).toBe('2');
+  test('operate(12,3,%) should return "0" as string', () => {
+    expect(operate(12, 3, '%')).toBe('0');
+  });
+});
+
+describe('Unknown operations to throw error', () => {
+  it('should throw an error when unvalid operation is given', () => {
+    expect(() => { operate(1, 2, '2'); }).toThrow();
   });
 
-  test('Should throw an error if a wrong operator is used', () => {
-    expect(() => operate(6, 3, 'q')).toThrowError(/Unknown operation/);
+  it('should throw `Unknown operation <wrong-operation>` ', () => {
+    expect(() => { operate(1, 2, '2'); }).toThrowError(new Error("Unknown operation '2'"));
   });
 });

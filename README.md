@@ -7,7 +7,9 @@ Additional description of the project and its features.
 
 ## 🔴  Live Demo
 
-[Math-magicians live](https://condescending-galileo-ae7c3d.netlify.app)
+[On Netlify](https://condescending-galileo-ae7c3d.netlify.app)
+
+[On Heroku](https://math-magicians-donat.herokuapp.com/)
 
 
 ## Built With
